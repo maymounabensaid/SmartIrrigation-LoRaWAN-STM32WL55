@@ -9,33 +9,35 @@ This project presents an end-to-end smart irrigation system designed for water-e
 
 ## Hardware
 
-- [[ STM32WL55 ]]: STM32 LoRa Board active and fully supported by STMicroelectronics. [
+- [STM32WL55](hardware/stm32wl55.md): STM32 LoRa Board active and fully supported by STMicroelectronics. [https://www.st.com/en/microcontrollers-microprocessors/stm32wl55jc.html
 ](https://www.st.com/en/microcontrollers-microprocessors/stm32wl55jc.html).  
    - Sensors: 
-     - [[Watermark-200ss]]: measures soil water tension
-     - [[DFRobot-SEN0308]]: measures soil _moisture_ (volumetric water content as a percentage) 
-     - [[DS18B20]]: measures soil temperature
-     - [[BME680]]: measures air temperature, relative humidity and barometric pressure
-     - [[SI1145]]: measures visible & NIR (Near Infra-Red) light and estimates a UV index using a mathematical approximation from visible and IR readings 
-     - [[AMG8833]] (8 x 8 Pixels): Thermal sensor to measure the spatial temperature distribution of the canopy/grass surface. Used to derive the Crop Water Stress Index (CWSI).
-     - Actuator: relay 5V to control the water pump
-- [[Dragino-LPS8]]: An open source LoRaWAN Gateway. [
+     - [Watermark-200ss](hardware/sensors/watermark.md): measures soil water tension
+     - [DFRobot-SEN0308](hardware/sensors/sen0308.md): measures soil _moisture_ (volumetric water content as a percentage) 
+     - [DS18B20](hardware/sensors/ds18b20.md): measures soil temperature
+     - [BME680](hardware/sensors/bme680): measures air temperature, relative humidity and barometric pressure
+     - [SI1145](hardware/sensors/si1145.md): measures visible & NIR (Near Infra-Red) light and estimates a UV index using a mathematical approximation from visible and IR readings 
+     - [AMG8833](hardware/sensors/amg883) (8 x 8 Pixels): Thermal sensor to measure the spatial temperature distribution of the canopy/grass surface. Used to derive the Crop Water Stress Index (CWSI).
+   - Actuator: 5V relay module to control a solenoid valve for water flow management
+- [Dragino-LPS8](hardware/dragino-lps8): An open source LoRaWAN Gateway. [https://www.dragino.com/products/lora-lorawan-gateway/item/148-lps8.html
 ](https://www.dragino.com/products/lora-lorawan-gateway/item/148-lps8.html)
 ## Repository structure
+
+```
 
 README.md                         
 │
 ├── hardware/
 │   ├── README.md                   
 │   ├── sensors/
-│   │   ├── Watermark-200ss.md      
-│   │   ├── DFRobot-SEN0308.md
-│   │   ├── DS18B20.md
-│   │   ├── BME680.md
-│   │   ├── SI1145.md
-│   │   └── AMG8833.md
+│   │   ├── watermark.md      
+│   │   ├── sen0308.md
+│   │   ├── ds18b20.md
+│   │   ├── bme680.md
+│   │   ├── si1145.md
+│   │   └── amg8833.md
 │   └── actuator/
-│       └── Solenoid-Valve.md      
+│       └── solenoid-valve.md      
 │
 ├── firmware/
 │   └── README.md                  
@@ -47,4 +49,6 @@ README.md
 │   └── README.md                  
 │
 └── dashboard/
-    └── README.md                
+    └── README.md  
+    
+```              
