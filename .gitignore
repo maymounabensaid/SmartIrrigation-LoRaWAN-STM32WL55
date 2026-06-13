@@ -2,14 +2,12 @@
 git_windows_key
 git_windows_key.pub
 # Ignore Obsidian configuration files
-.obsidian/ workspace.json
+.obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/plugins/
 .obsidian/cache/
-
+# Ignore MyNotes file
+MyNotes.md
 # Ignore system files (Mac or Windows)
 .DS_Store
 Thumbs.db
-
-# Ignore Links file
-Links.md
