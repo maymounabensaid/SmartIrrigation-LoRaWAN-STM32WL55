@@ -1,1 +1,12 @@
+# Ignore SSH keys
+git_windows_key
+git_windows_key.pub
+# Ignore Obsidian configuration files
+.obsidian/ workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/cache/
+
+# Ignore system files (Mac or Windows)
 .DS_Store
+Thumbs.db

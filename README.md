@@ -18,6 +18,7 @@ This project presents an end-to-end smart irrigation system designed for water-e
      - [BME680](hardware/sensors/bme680.md): measures air temperature, relative humidity and barometric pressure
      - [SI1145](hardware/sensors/si1145.md): measures visible & NIR (Near Infra-Red) light and estimates a UV index using a mathematical approximation from visible and IR readings 
      - [AMG8833](hardware/sensors/amg8833.md) (8 x 8 Pixels): Thermal sensor to measure the spatial temperature distribution of the canopy/grass surface. Used to derive the Crop Water Stress Index (CWSI).
+     - [AMG8833](hardware/sensors/amg883) (8 x 8 Pixels): Thermal sensor to measure the spatial temperature distribution of the canopy/grass surface. Used to derive the Crop Water Stress Index (CWSI).
    - Actuator: 5V relay module to control a solenoid valve for water flow management
 - [Dragino-LPS8](hardware/gateway-dragino-lps8.md): An open source LoRaWAN Gateway. [https://www.dragino.com/products/lora-lorawan-gateway/item/148-lps8.html
 ](https://www.dragino.com/products/lora-lorawan-gateway/item/148-lps8.html)
