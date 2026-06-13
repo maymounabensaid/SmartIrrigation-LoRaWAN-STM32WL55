@@ -2,6 +2,7 @@
 ## Overview
 
 This project presents an end-to-end smart irrigation system designed for water-efficient precision agriculture. It combines multi-parameter soil and weather sensing with autonomous actuator control, all coordinated over a low-power wide-area  LoRaWAN network. 
+
 Sensor data is continuously uploaded to a cloud server where two key agronomic indicators are derived: the evapotranspiration (ET) — quantifying water loss from soil and vegetation through combined evaporation and plant transpiration — and the Crop Water Stress Index (CWSI), which assesses the degree of water stress experienced by the grass or canopy by comparing actual to potential transpiration.
 
 ## System Architecture
