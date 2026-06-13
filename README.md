@@ -5,7 +5,7 @@ This project presents an end-to-end smart irrigation system designed for water-e
 
 ## System Architecture
 
-![System Architecture](architecture.png)
+![System Architecture](docs/architecture.png)
 
 ## Hardware
 
