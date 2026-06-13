@@ -10,3 +10,6 @@ git_windows_key.pub
 # Ignore system files (Mac or Windows)
 .DS_Store
 Thumbs.db
+
+# Ignore Links file
+Links.md
